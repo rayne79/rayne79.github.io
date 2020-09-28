@@ -1,0 +1,82 @@
+#logo {
+    width: 5%;
+    height: 5%;
+    margin: 10px;
+}
+
+header {
+    padding-bottom: 20px;
+    background-color: indigo;
+    color: white;
+}
+
+#title {
+    display: inline;
+    font-size: 40px;
+}
+
+#links li {
+    display: inline;
+    border-right: 2px solid white;
+    padding: 15px;
+}
+
+#links li:hover {
+    background-color: white;
+    border: 1px solid white;
+}
+
+nav {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: turquoise;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: black;
+}
+
+section {
+    margin: 20px;
+    padding-right: 20px;
+}
+
+dt {
+    font-weight: bolder;
+}
+
+dd {
+    padding-bottom: 20px;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 2px solid black;
+    padding: 30px;
+}
+
+table {
+    width: 50%;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.facultyImg {
+    border: 3px solid purple;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.facultyImg:hover {
+    transform: scale(1.2);
+}
