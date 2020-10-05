@@ -17,7 +17,69 @@
             </ul>
         </nav>
         <section>
-            <h1>Coming soon</h1>
+            <h1>Ask a question</h1>
+            <form action="action_page.php" method="GET" target="_black">
+                <label for="firstName">First Name:</label><br>
+                <input type="text" id="firstName" name="firstName"><br>
+
+                <label for="lastName">Last Name:</label><br>
+                <input type="text" id="lastName" name="lastName"><br>
+
+                <label for="email">Enter your Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="pasword"><br>
+
+                <!---Gender Radio buttons-->
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label><br>
+                
+                <hr>
+                <!--Classification Radio buttons-->
+                <input type="radio" id="freshman" name="classification" value="freshman">
+                <label for="freshman">Freshman</label><br>
+
+                <input type="radio" id="sophomore" name="classification" value="sophomore">
+                <label for="sophomore">Sophomore</label><br>
+
+                <input type="radio" id="junior" name="classification" value="junior">
+                <label for="junior">Junior</label><br>
+
+                <input type="radio" id="senior" name="classification" value="senior">
+                <label for="senior">Senior</label><br>
+
+                <!--Checkboxes for courses-->
+                <Fieldset>
+                    <legend>Courses</legend>
+                    <input type="checkbox" id="cosc1301" name="cosc1301" value="cosc1301">
+                    <label for="cosc1301">COSC 1301</label>
+
+                    <input type="checkbox" id="cosc1315" name="cosc1315" value="cosc1315">
+                    <label for="cosc1315">COSC 1315</label><br>
+
+                    <input type="checkbox" id="cosc1320" name="cosc1320" value="cosc1320">
+                    <label for="cosc1320">COSC 1320</label>
+
+                    <input type="checkbox" id="cosc1436" name="cosc1436" value="cosc1436">
+                    <label for="cosc1436">COSC 1436</label>
+
+                </Fieldset>
+
+            <label for="question"> Type your question</label><br>
+            <textarea name="question" id="question" rows="10" cols="30">
+
+            </textarea>
+            <br>
+                <input type="submit" value="Submit"><input type="reset" value="Reset">
+                
+            </form>
         </section>
     
 </body></html>
