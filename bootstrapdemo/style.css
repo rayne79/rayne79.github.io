@@ -1,0 +1,35 @@
+.banner {
+    background-color: purple;
+    color: white;
+    background-image: url(images/texture.jpg);
+    text-shadow: 2px 2px 4px #000000;
+    margin: 0px;
+    margin-top: 50px;
+}
+#demo {
+    text-align: center;
+}
+body {
+    background-color: darkolivegreen;
+    background-image: url(images/texture2.png);
+}
+.carousel-caption{
+    text-shadow: 2px 2px 4px #000000;
+
+}
+
+.col img{
+    width: 200px;
+    height: 200px;
+
+}
+
+.col {
+    margin: 20px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    margin: 0px;
+}
