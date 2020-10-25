@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <span><a href="index.html">Home</a> | <a href="bulb.html">Bulb</a> | <a href="form.html">Form</a></span>  
+        <br>
+        <div id="result">hh</div>       
+        <script>
+            //this statement prints text to the screen.
+            document.write("Hello World!" + "<br>");
+            //create variable
+            var value1 = 50;
+            var value2 = 60;
+            var sum = value1 + value2
+            document.write(sum + "<br>");
+            //connect two words togethere, this is called concatenation
+            var string1 = "Chocolate"
+            var string2 = " Brownie"
+            document.write( string1 + string2 + "<br>");
+            //select an HTML element by id and manipulate it
+            document.getElementById("result").innerHTML = "WHAZZZUUUUPPPPP!!!!";
+            document.getElementById("result").innerText = "WHAZZZUUUUPPPPP!!!!";
+            //select an HTML element by id and change its style
+            document.getElementById("result").style = "color: red; font-weight: bold; font-size: 30px";
+            //alert
+            window.alert("HEYY WATCH OUT!!!");
+        </script>
+
+    </body>
+</html>
